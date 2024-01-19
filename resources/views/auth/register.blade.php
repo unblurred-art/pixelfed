@@ -75,7 +75,7 @@
                                 <div class="form-check">
                                   <input class="form-check-input" name="agecheck" type="checkbox" value="true" id="ageCheck" required>
                                   <label class="form-check-label" for="ageCheck">
-                                    I am at least 16 years old
+                                    I am at least 18 years old
                                   </label>
                                 </div>
                             </div>

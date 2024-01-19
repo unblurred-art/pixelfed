@@ -72,7 +72,7 @@
           <h5 class="font-weight-bold mt-5" id="7">7. Minimum age requirement for site</h5>
 
           <p class="">
-          The minimum age requirement for this site is {{config_cache('other_vars.min_age')}}. All users under the age of {{config_cache('other_vars.min_age')}} are prohibited from using this site.
+          The minimum age requirement for this site is 18. All users under the age of 18 are prohibited from using this site.
           </p>
           
           <h5 class="font-weight-bold mt-5" id="8">8. Changes to our Privacy Policy</h5>

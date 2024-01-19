@@ -69,18 +69,16 @@
           <p class="">Your public content may be downloaded by other servers in the network. Your public and followers-only posts are delivered to the servers where your followers reside, and direct messages are delivered to the servers of the recipients, in so far as those followers or recipients reside on a different server than this.</p>
           <p class="">When you authorize an application to use your account, depending on the scope of permissions you approve, it may access your public profile information, your following list, your followers, your lists, all your posts, and your favourites. Applications can never access your e-mail address or password.</p>
 
-          <h5 class="font-weight-bold mt-5" id="7">7. Site usage by children</h5>
+          <h5 class="font-weight-bold mt-5" id="7">7. Minimum age requirement for site</h5>
 
-          <p class="">If this server is in the EU or the EEA: Our site, products and services are all directed to people who are at least 16 years old. If you are under the age of 16, per the requirements of the GDPR (General Data Protection Regulation) do not use this site.</p>
-
-          <p class="">If this server is in the USA: Our site, products and services are all directed to people who are at least 13 years old. If you are under the age of 13, per the requirements of COPPA (Children's Online Privacy Protection Act) do not use this site.</p>
-
-          <p class="">Law requirements can be different if this server is in another jurisdiction.</p>
-
+          <p class="">
+          The minimum age requirement for this site is {{config_cache('other_vars.min_age')}}. All users under the age of {{config_cache('other_vars.min_age')}} are prohibited from using this site.
+          </p>
+          
           <h5 class="font-weight-bold mt-5" id="8">8. Changes to our Privacy Policy</h5>
           <p class="">If we decide to change our privacy policy, we will post those changes on this page.</p>
 
-          <p class="">This document is CC-BY-SA. It was last updated Jun 12, 2018.</p>
+          <p class="">This document is CC-BY-SA. It was last updated Jan 20, 2024.</p>
 
           <p class="">Originally adapted from the <a href="https://mastodon.social/terms">Mastodon</a> privacy policy.</p>
         </div>

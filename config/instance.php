@@ -2,9 +2,9 @@
 
 return [
 
-	'other_vars' => [
-		'min_age' => env('INSTANCE_MIN_AGE', 18)
-	],
+	// 'other_vars' => [
+	// 	'min_age' => env('INSTANCE_MIN_AGE', 18)
+	// ],
 
 	'force_https_urls' => env('FORCE_HTTPS_URLS', true),
 
